@@ -1,0 +1,230 @@
+.Enquiry button{
+	font-size: 13px;
+}
+.navbar-brand{
+	width: 40%;
+}
+
+.product-bt {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* 
+.item img {
+    opacity: 85%;
+    transition: all 0.5s ease;
+    /* overflow: hidden; */
+
+
+
+html,body{
+	overflow-x: hidden;
+}
+
+
+/* btn  */
+.ic a {
+    color: hsl(359, 73%, 55%);
+    text-decoration: none;
+	/* list-style: none; */
+  }
+  
+ .ic a:hover {
+    color: #e76668;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+  }
+ 
+  .back-to-top {
+    position: fixed;
+    visibility: hidden;
+    right: 20px;
+    bottom: 15px;
+    /* z-index: 996; */
+    background: #25D366;
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+    transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+    opacity: 0;
+    z-index: 1000;
+  }
+  .back-to-top i {
+    font-size: 28px;
+    /* font-weight: bold; */
+    color: #fff;
+	text-align: center;
+    line-height: 0;
+  }
+
+  .back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+  }
+  .back-to-top.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .back-to-top_1 {
+    position: fixed;
+    visibility: hidden;
+    left: 20px;
+    bottom: 15px;
+    /* z-index: 996; */
+    background: #25D366;
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+    transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+    opacity: 0;
+    z-index: 1000000;
+  }
+  .back-to-top_1 i {
+    font-size: 24px;
+    /* font-weight: bold; */
+    color: #fff;
+    line-height: 0;
+  }
+  .back-to-top_1.active {
+    visibility: visible;
+    opacity: 1;
+  }
+  .back-to-top_1.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+/* all card   *******  fast 3 card */
+
+.w-i a i{
+	width: 5%;
+	right: 20px;
+	margin: 0 auto;
+	position: fixed;
+	text-align: end;
+	bottom: 30px;
+	color: green;
+    z-index: 100;
+}
+
+/* sec-2 */
+.sec-2 h2{
+	margin: 0 auto;
+	text-align: center;
+	/* width: 18%; */
+	font-family: "PT Serif", serif;
+	font-weight: 400;
+    font-size: 40px;
+}
+.sec-2 p {
+	width: 70%;
+	margin: 15px auto;
+	color: #4f4f4f;
+}
+.img-3{
+	position: relative;
+    width: 100%;
+}
+.img-3 img{
+    width: 100%;
+}
+.hove{
+	z-index: -1;
+}
+.img-3 :hover{
+	opacity: 0;
+	transition: all 1s;
+}
+.img-hi{
+	position: absolute;
+	display: block;
+	top: 0;
+	z-index: 2;
+}
+
+/* form */
+:root {
+	--color-1: #f0faff;
+	--color-2: lime;
+	--color-3: #020403;
+  
+	--fonts-1: 15px;
+	--fonts-2: 22px;
+	--fonts-3: 25px;
+  }
+  .show {
+	border: none;
+  }
+  @keyframes animate {
+	0%,
+	100% {
+	  transform: translate(-50%, -50%) scale(1);
+	}
+	50% {
+	  transform: translate(-50%, -50%) scale(1.03);
+	}
+  }
+  .pop-up {
+	display: none;
+	position: fixed;
+	top: 54%;
+	left: 50%;
+	width: 70%;
+	transform: translate(-50%, -50%) scale(1);
+	animation: animate 1s ease-in-out;
+	z-index: 99999;
+  }
+  .pop-up.active {
+	display: block;
+  }
+  .overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 98;
+	width: 100%;
+	height: 100%;
+	background: rgba(2, 4, 3, 0.596);
+  }
+  .overlay.active {
+	display: block;
+  }
+  .btn{
+	width: 100%;
+	margin: 0 auto;
+	justify-content: space-between;
+  }
+  .btn button{
+	background-color: #3204ff;
+	border: none;
+	width: 45%;
+	color: #ffffff;
+	font-size: 20px;
+	border-radius: 5px;
+	padding: 6px;
+  }
+.pop-up{
+   z-index: 10000;
+}
+
+
+@media(max-width : 768px)
+{
+	.btn-1{
+		width: 100%;
+	}
+	.product-bt {
+		width: 100%;
+	}
+}
